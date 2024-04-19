@@ -2035,6 +2035,33 @@ input, select, textarea {
 
 		}
 
+		/* HardSkills */
+		.skills-container {
+			display: flex;
+			justify-content:space-evenly
+		  }
+		  
+		  .left-skills {
+			/* list-style-type: none; */
+			padding: 0;
+			margin-right: 20px; /* Adjust spacing between the lists */
+		  }
+		  
+		  .right-skills {
+			/* list-style-type: none; */
+			padding: 0;
+		  }
+		  
+		  /* Optional: Adjust width or other styles as needed */
+		  .left-skills li,
+		  .right-skills li {
+			margin-bottom: 1px; /* Adjust spacing between the skills */
+		  }
+
+		  .center-header {
+			text-align: center;
+		  }
+
 /* Box */
 
 	.box {
